@@ -1,21 +1,34 @@
 {
   "name": "abhi-cl-blog",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A Component Library built with React and TypeScript",
+  
   "scripts": {
+    "rollup-build-lib": "rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Abhijit Sharma",
   "license": "ISC",
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-typescript": "^11.0.0",
     "@types/react": "^18.0.28",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "rollup": "^3.17.2",
+    "rollup-plugin-dts": "^5.2.0",
+    "tslib": "^2.5.0",
     "typescript": "^4.9.5"
   },
   "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  }
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts"
 }
