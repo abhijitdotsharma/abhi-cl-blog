@@ -1,6 +1,6 @@
 {
   "name": "abhi-cl-blog",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Component Library built with React and TypeScript",
   "scripts": {
     "rollup-build-lib": "rollup -c",
