@@ -1,5 +1,6 @@
 .btn{
     background-color: blueviolet;
-
+    color: white;
     font-size: 3rem;
+    border: none;
 }
